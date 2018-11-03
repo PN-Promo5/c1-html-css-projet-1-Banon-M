@@ -1,0 +1,344 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container {
+    width: 100%;
+    display: block;
+    padding: 0px;
+  }
+
+  /* Navigation */
+  /* Bande nav */
+  .menuPrincipal {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+    height: 65px;
+  }
+
+  /* image LOGO */
+  .menuPrincipal figure {
+    text-align: center;
+  }
+
+  .logo {
+    margin: 0px 0px;
+    height: 35px;
+  }
+
+  /* menu principal */
+  .menuPrincipal .menu {
+    list-style-type: none;
+    text-align: center;
+    font-size: 15px;
+    align-self: center;
+    margin-left: 10px;
+  }
+
+  .menuPrincipal li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  /* Panier et Profil */
+  .panier {
+    width: 15px;
+    height: 15px;
+  }
+
+  .profil {
+    width: 15px;
+    height: 15px;
+  }
+
+  .fas {
+    font-size: 10px;
+  }
+
+  /* HEADER / changement d'image */
+  header {
+    height: 200px;
+    background-image: url(../img/image/header4.jpeg);
+    background-position: 0px 65px;
+  }
+
+  .header-content h1 {
+    font-size: 1.5rem;
+    padding: 0px 10px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .header-content .btn {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 140px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 130px;
+    background-color: rgb(168, 210, 255, 0.9);
+  }
+
+  .header-content #buttonCollection .btn {
+    font-size: 1.3rem;
+    height: 35px;
+  }
+
+  #buttonCollection {
+    width: 100%;
+  }
+
+  /* Section Avantage */
+  .advantage {
+    height: 45px;
+  }
+
+  .advantage article {
+    font-size: 0.7rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .iconAdv {
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 0;
+  }
+
+  .iconAdvTruck {
+    height: 23px;
+    margin: 0;
+  }
+
+  /* Produit */
+  .productRow {
+    /*Disposition en colone*/
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 1000px;
+  }
+
+  .productRow .product {
+    width: 60%;
+    height: 100%;
+    margin-bottom: 15px;
+    margin-right: 0;
+    border-radius: 20px 20px;
+  }
+
+  .productRow .product .imgProduct {
+    background-position: center;
+    height: 200px
+  }
+
+  .productRow .product .product-body p.price {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  .productRow .product .product-body h2 {
+    font-size: 1.6rem;
+  }
+
+  .productRow .product .product-body p.description {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .productRow .product .product-body {
+    margin-bottom: 10px;
+  }
+
+  /* ajout panier */
+  .btn .ajoutPanier {
+    font-size: 1.3rem;
+    height: 30px;
+    width: 155px;
+    font-weight: 500;
+  }
+
+  .btnPanier {
+    margin: 0px;
+    margin-bottom: 15px;
+  }
+
+  .container .productRow .product .btnPanier .ajoutPanier .fas {
+    font-size: 1rem;
+  }
+
+  /* ajout favoris */
+  .addFav .fas {
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+  }
+
+  /*Bande Promotionnelle*/
+  #containerPromo {
+    /*Mise en page en colone*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .promo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    height: 400px;
+    width: 90%;
+  }
+
+  .titlePromo {
+    font-size: 2.5rem;
+  }
+
+  #articlPromo {
+    flex-direction: column;
+  }
+
+  .btnPromo {
+    margin: 0px 0px 10px 0px;
+    height: 80px;
+  }
+  del{
+    font-size: 1.5rem;
+  }
+
+  /*Concept*/
+  #concept {
+    width: 95%;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  .textPicture {
+    flex-direction: column;
+    height: 300px;
+  }
+
+  .textPresentation {
+    width: 100%;
+    font-size: 1.2rem;
+    height: 430px;
+  }
+
+  .textPresentation p {
+    margin: 10px 25px;
+  }
+
+  .picturePresentation {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .pictureConcept {
+    width: 120px;
+  }
+
+  /* Pied de page -- FOOTER */
+  #lastContainer {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  #socialBloc {
+    border-right: none;
+    width: 100%;
+  }
+
+  #socialBloc .socialNetwork {
+    margin: 10px 0px;
+  }
+
+  .socialNetwork p {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  #socialBloc .socialNetwork a .fab {
+    font-size: 2rem;
+  }
+
+  #socialBloc .blocExplain {
+    margin: 30px 10px;
+    font-size: 0.9rem;
+  }
+
+  /* Formulaire de footer */
+  #formulaire {
+    width: 100%;
+  }
+
+  #titreContact {
+    font-size: 2rem;
+  }
+
+  textarea {
+    width: 75%;
+    height: 80px;
+  }
+
+  form p:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*Liens de fin de page*/
+  .link {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    font-size: 1rem;
+    border-top: 2px solid #a8d2ff;
+    border-bottom: 2px solid #a8d2ff;
+    border-left: none;
+  }
+
+  .link a p {
+    margin-bottom: 0px;
+  }
+
+  /*Retour en haut de la page*/
+  #toTop {
+    bottom: 50px;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+  .container {
+    /* width: 100%; */
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  .container {
+    /* width: 100%; */
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .container {
+    /* width: 100%; */
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .container {
+    /* width: 100%; */
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .container {
+    /* width: 100%; */
+  }
+}
